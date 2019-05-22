@@ -1,0 +1,28 @@
+{
+  "author": "Edison Brito",
+  "classifications": ["Web"],
+  "name": "Praxio Tools Arquitetura",
+  "identity": "Praxio.Tools.Arquitetura",
+  "shortName": "praxio-tools-arquitetura",
+  "tags": {
+      "language": "C#"
+  },
+  "sourceName": "Praxio.Tools.Arquitetura",
+  "preferNameDirectory": "true",
+  "sources":[
+       {
+          "modifiers":[
+             {
+                "exclude":[
+                   "**/.git/**",
+                   "**/*.nuspec",
+				   "**/*_rels/**",
+				   "**/*package/**",
+				   "**/NuGet.Config",
+				   "**/*.xml"				   
+                ]
+             }
+          ]
+       }
+    ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Praxio.Tools.Arquitetura</id>
+    <version>#{PackageVersion}#</version>
+    <title>Praxio.Tools.Arquitetura</title>
+    <authors>Praxio</authors>
+    <owners>Praxio</owners>
+    <licenseUrl>http://intranet.portaldocliente.net</licenseUrl>
+    <projectUrl>http://intranet.portaldocliente.net</projectUrl>
+    <iconUrl>http://intranet.portaldocliente.net/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>praxio.tools.arquitetura</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags></tags>
+    <dependencies>   
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.log;**\.vscode\**\*;" />
+  </files>
+</package>

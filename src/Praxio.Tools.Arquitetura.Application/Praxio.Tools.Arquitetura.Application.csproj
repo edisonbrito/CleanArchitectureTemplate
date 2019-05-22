@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="FluentValidation" Version="8.1.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources\Mensagens.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Mensagens.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Praxio.Tools.Arquitetura.Domain\Praxio.Tools.Arquitetura.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Mensagens.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Mensagens.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\UseCases\" />
+    <Folder Include="UseCases\" />
+  </ItemGroup>
+
+</Project>
